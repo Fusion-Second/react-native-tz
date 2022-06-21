@@ -11,11 +11,11 @@ npm install react-native-tz
 ## Usage
 
 ```js
-import { multiply } from "react-native-tz";
+import { getTimeZone } from "react-native-tz";
 
 // ...
 
-const result = await multiply(3, 7);
+const result = await getTimeZone();
 ```
 
 ## Contributing
