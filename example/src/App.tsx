@@ -1,18 +1,28 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-tz';
+import { StyleSheet, View, Text, Alert } from 'react-native';
+import { multiply, getTimeZone } from 'react-native-tz';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
-    multiply(3, 7).then(setResult);
+    //  multiply(3, 7).then(setResult);
+    async function init(){
+      var timeZone = await getTimeZone();
+     Alert.alert(timeZone);
+    }
+    init();
+  }, []);
+
+
+  React.useEffect(() => {
+
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      {/* <Text>Result: {result}</Text> */}
     </View>
   );
 }

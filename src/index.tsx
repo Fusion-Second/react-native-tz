@@ -17,6 +17,10 @@ const Tz = NativeModules.Tz
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return Tz.multiply(a, b);
+// export function multiply(a: number, b: number): Promise<number> {
+//   return Tz.multiply(a, b);
+// }
+
+export function getTimeZone(): Promise<string> {
+  return Tz.getTimeZone();
 }
