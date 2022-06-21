@@ -7,7 +7,11 @@ Get users TimeZone based on location.
 ```sh
 npm install react-native-tz
 ```
+for iOS:
 
+```sh
+cd ios && pod install
+```
 ## Usage
 
 ```js
