@@ -1,6 +1,6 @@
 {
   "name": "react-native-tz",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Get users TimeZone based on location.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -34,7 +34,9 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "time zone",
+    "location"
   ],
   "repository": "https://github.com/Fusion-Second/react-native-tz",
   "author": "Tarek Moubarak <tmoubarak@fusionsecond.com> (https://fusionsecond.com)",
