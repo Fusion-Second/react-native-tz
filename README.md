@@ -1,6 +1,6 @@
 # react-native-tz
 
-Get users TimeZone based on location.
+Get users TimeZone based on location. (updated version of react-native-timezone)
 
 ## Installation
 
